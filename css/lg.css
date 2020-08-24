@@ -1,0 +1,43 @@
+@media screen and (max-width: 400*570px ){
+    #quienes img{
+        min-width: 365px;
+        height: 260px;
+    }
+    
+    #quienes article{
+        padding-left: 2px;
+        width: max-content;
+        
+    }
+    #conocenos{
+        padding-bottom: 100px;
+    }
+    #conocenos article{
+        width: 570px;
+        
+        padding: 50px 200px 50px 200px;
+        vertical-align: center;
+        text-align: center;
+    }
+    #conocenos img{
+        
+        width:400px;
+        height: auto;
+        padding-bottom: 10px;
+        vertical-align: auto;
+    }
+   
+    footer{
+    
+        width: max-content;
+        background-color: #1e3a46;
+        height: auto;
+        
+        color: #ffff;
+        font-size: 1rem;
+        
+        vertical-align: middle;
+        text-align: center;
+        padding: 50px 200px 50px 200px;
+    }
+} 

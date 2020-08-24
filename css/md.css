@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px){
+
+    #menuPrincipal{
+        height: 0px;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    #menu-ham{
+        width: 60%;
+        min-width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+    }
+    #mapaLeon{
+        width: auto; 
+        padding-left: 50px; 
+        padding-top: 50px; 
+        padding-bottom: 50px; 
+    }
+    #abrir-ham{
+        display: inline-block;
+    }
+
+    #cabecera:target #abrir-ham{
+        display: none;
+    }
+
+    #cabecera:target #cerrar-ham{
+        display: inline-block;
+    }
+
+    #cabecera:target #menuPrincipal{
+        height: 150px;
+    }
+
+    .opcion{
+        width: 100%;
+        text-align: center;
+    }
+
+    body{
+        margin-top: 50px;
+    }
+    #quienes img article{
+        min-width: 100%;
+        display: block;
+    }
+    
+    #quienes img{
+        min-width: 90%;
+        height: auto;
+    }
+        
+    #quienes article{
+        padding-top: 20px;
+        width: fit-content;
+    }
+
+    #quienes p{
+        display: none;
+    }
+
+    #quienes a{
+        margin: 0 auto;
+    }
+
+    #filosofia p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #filosofia h2{
+        font-size: 1.2rem;
+    }
+
+    .proy{
+        margin-bottom: 3%;
+        min-width: 100%;
+    }
+
+    .separar-izq{
+        margin-left:0px
+    }
+
+    .proy img{
+        height: 200px;
+        min-width: 100%;
+    }
+}
